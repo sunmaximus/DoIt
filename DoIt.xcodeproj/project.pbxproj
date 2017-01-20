@@ -8,22 +8,26 @@
 
 /* Begin PBXBuildFile section */
 		029DAB991E22C3F3004DE353 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 029DAB981E22C3F3004DE353 /* AppDelegate.swift */; };
-		029DAB9B1E22C3F3004DE353 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 029DAB9A1E22C3F3004DE353 /* ViewController.swift */; };
+		029DAB9B1E22C3F3004DE353 /* TaskViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 029DAB9A1E22C3F3004DE353 /* TaskViewController.swift */; };
 		029DAB9E1E22C3F3004DE353 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 029DAB9C1E22C3F3004DE353 /* Main.storyboard */; };
 		029DABA11E22C3F3004DE353 /* DoIt.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 029DAB9F1E22C3F3004DE353 /* DoIt.xcdatamodeld */; };
 		029DABA31E22C3F3004DE353 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 029DABA21E22C3F3004DE353 /* Assets.xcassets */; };
 		029DABA61E22C3F3004DE353 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 029DABA41E22C3F3004DE353 /* LaunchScreen.storyboard */; };
+		02F5AFFF1E2712CC003F6478 /* CreateTaskViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 02F5AFFE1E2712CC003F6478 /* CreateTaskViewController.swift */; };
+		02F5B0011E271F21003F6478 /* CompleteTaskViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 02F5B0001E271F21003F6478 /* CompleteTaskViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		029DAB951E22C3F3004DE353 /* DoIt.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DoIt.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		029DAB981E22C3F3004DE353 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		029DAB9A1E22C3F3004DE353 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		029DAB9A1E22C3F3004DE353 /* TaskViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TaskViewController.swift; sourceTree = "<group>"; };
 		029DAB9D1E22C3F3004DE353 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		029DABA01E22C3F3004DE353 /* DoIt.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = DoIt.xcdatamodel; sourceTree = "<group>"; };
 		029DABA21E22C3F3004DE353 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		029DABA51E22C3F3004DE353 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		029DABA71E22C3F3004DE353 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		02F5AFFE1E2712CC003F6478 /* CreateTaskViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CreateTaskViewController.swift; sourceTree = "<group>"; };
+		02F5B0001E271F21003F6478 /* CompleteTaskViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CompleteTaskViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -57,7 +61,9 @@
 			isa = PBXGroup;
 			children = (
 				029DAB981E22C3F3004DE353 /* AppDelegate.swift */,
-				029DAB9A1E22C3F3004DE353 /* ViewController.swift */,
+				029DAB9A1E22C3F3004DE353 /* TaskViewController.swift */,
+				02F5B0001E271F21003F6478 /* CompleteTaskViewController.swift */,
+				02F5AFFE1E2712CC003F6478 /* CreateTaskViewController.swift */,
 				029DAB9C1E22C3F3004DE353 /* Main.storyboard */,
 				029DABA21E22C3F3004DE353 /* Assets.xcassets */,
 				029DABA41E22C3F3004DE353 /* LaunchScreen.storyboard */,
@@ -141,8 +147,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				029DABA11E22C3F3004DE353 /* DoIt.xcdatamodeld in Sources */,
-				029DAB9B1E22C3F3004DE353 /* ViewController.swift in Sources */,
+				02F5B0011E271F21003F6478 /* CompleteTaskViewController.swift in Sources */,
+				029DAB9B1E22C3F3004DE353 /* TaskViewController.swift in Sources */,
 				029DAB991E22C3F3004DE353 /* AppDelegate.swift in Sources */,
+				02F5AFFF1E2712CC003F6478 /* CreateTaskViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -306,6 +314,7 @@
 				029DABAC1E22C3F3004DE353 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 
